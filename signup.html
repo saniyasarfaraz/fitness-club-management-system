@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style >
+      h1{
+          text-align:center;
+      }
+      form{
+          text-align:center;
+          text-justify:center;
+      }
+  </style>
+        
+    
+    <title >sign up</title>
+</head>
+<body>
+    <form action="action_page.php" style="border:1px solid rgb(100, 46, 46)">
+        <div class="container">
+          
+        
+          <h1 allign="right">Sign Up</h1>
+          <p>Enter your information to sign up.</p>
+          <hr>
+
+          <label for="name"><b>First Name</b></label>
+          <input type="text" placeholder="Enter your first name" name="first name" required><br>
+
+          <label for="name" ><b>last Name</b></label>
+          <input type="text" placeholder="Enter your last name" name="last name" required><br>
+
+          <label for="contact"><b>phone number</b></label>
+          <input type="text" placeholder="Enter your phone number" name="first name" required><br>
+
+          <label for="gender"><b>gender</b></label>
+          <select>
+            <option>select</option>
+            <option>male</option>
+            <option>female</option>
+          </select><br>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required><br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+      
+          <label for="psw-repeat"><b>comfirm Password</b></label>
+          <input type="password" placeholder="confirm Password" name="psw-repeat" required><br>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn"><a href="index.html">Sign Up </a></button>
+          </div>
+          <p>If you already have a account then <a href="signin.html" style="color:dodgerblue">sign in</a>.</p>
+        </div>
+      </form>
+      
+</body>
+</html>
